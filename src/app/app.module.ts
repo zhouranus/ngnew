@@ -20,6 +20,9 @@ import { CustomDirectiveComponent } from './demos/directive/custom-directive/cus
 import { ListItemComponent } from './demos/directive/ng-directive/list-item/list-item.component';
 import { MyifDirective } from './demos/directive/custom-directive/myif.directive';
 import { MyhiddenDirective } from './demos/directive/custom-directive/myhidden.directive';
+import { PipeComponent } from './demos/pipe/pipe.component';
+import { CurrencyExchangePipe } from './demos/pipe/currency-exchange.pipe';
+import { MyfilterPipe } from './demos/pipe/myfilter.pipe';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { MyhiddenDirective } from './demos/directive/custom-directive/myhidden.d
     CustomDirectiveComponent,
     ListItemComponent,
     MyifDirective,
-    MyhiddenDirective
+    MyhiddenDirective,
+    PipeComponent,
+    CurrencyExchangePipe,
+    MyfilterPipe
   ],
   imports: [
     BrowserModule,

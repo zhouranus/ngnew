@@ -4,6 +4,7 @@ import {LifeCycleComponent} from "./demos/life-cycle/life-cycle.component";
 import { ChangeDetectionComponent} from "./demos/change-detection/change-detection.component";
 import {FormComponent} from "./demos/form/form.component";
 import {DirectiveComponent} from "./demos/directive/directive.component";
+import {PipeComponent} from "./demos/pipe/pipe.component";
 
 
 const routes: Routes = [
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'd',
     component: DirectiveComponent
+  },
+  {
+    path: 'p',
+    component: PipeComponent
   }
 ]
 
