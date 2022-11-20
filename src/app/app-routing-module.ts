@@ -5,6 +5,7 @@ import { ChangeDetectionComponent} from "./demos/change-detection/change-detecti
 import {FormComponent} from "./demos/form/form.component";
 import {DirectiveComponent} from "./demos/directive/directive.component";
 import {PipeComponent} from "./demos/pipe/pipe.component";
+import {ComponentCommunicationComponent} from "./demos/component-communication/component-communication.component";
 
 
 const routes: Routes = [
@@ -27,6 +28,10 @@ const routes: Routes = [
   {
     path: 'p',
     component: PipeComponent
+  },
+  {
+    path: 'cc',
+    component: ComponentCommunicationComponent
   }
 ]
 

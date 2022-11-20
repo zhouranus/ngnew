@@ -23,6 +23,10 @@ import { MyhiddenDirective } from './demos/directive/custom-directive/myhidden.d
 import { PipeComponent } from './demos/pipe/pipe.component';
 import { CurrencyExchangePipe } from './demos/pipe/currency-exchange.pipe';
 import { MyfilterPipe } from './demos/pipe/myfilter.pipe';
+import { ComponentCommunicationComponent } from './demos/component-communication/component-communication.component';
+import { CcParentComponent } from './demos/component-communication/cc-parent/cc-parent.component';
+import { CcChildComponent } from './demos/component-communication/cc-child/cc-child.component';
+import { CcAnotherChildComponent } from './demos/component-communication/cc-another-child/cc-another-child.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,11 @@ import { MyfilterPipe } from './demos/pipe/myfilter.pipe';
     MyhiddenDirective,
     PipeComponent,
     CurrencyExchangePipe,
-    MyfilterPipe
+    MyfilterPipe,
+    ComponentCommunicationComponent,
+    CcParentComponent,
+    CcChildComponent,
+    CcAnotherChildComponent
   ],
   imports: [
     BrowserModule,
