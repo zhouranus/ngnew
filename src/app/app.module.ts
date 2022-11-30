@@ -27,6 +27,8 @@ import { ComponentCommunicationComponent } from './demos/component-communication
 import { CcParentComponent } from './demos/component-communication/cc-parent/cc-parent.component';
 import { CcChildComponent } from './demos/component-communication/cc-child/cc-child.component';
 import { CcAnotherChildComponent } from './demos/component-communication/cc-another-child/cc-another-child.component';
+import { ObservableComponent } from './demos/observable/observable.component';
+import { FormObservableComponent } from './demos/observable/form-observable/form-observable.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { CcAnotherChildComponent } from './demos/component-communication/cc-anot
     ComponentCommunicationComponent,
     CcParentComponent,
     CcChildComponent,
-    CcAnotherChildComponent
+    CcAnotherChildComponent,
+    ObservableComponent,
+    FormObservableComponent
   ],
   imports: [
     BrowserModule,
